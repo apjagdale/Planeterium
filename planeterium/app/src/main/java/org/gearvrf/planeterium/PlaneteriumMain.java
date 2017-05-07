@@ -13,6 +13,7 @@ import org.gearvrf.GVRSceneObject;
 import org.gearvrf.GVRTexture;
 import org.gearvrf.IPickEvents;
 import org.gearvrf.animation.GVRRepeatMode;
+import org.gearvrf.animation.GVRRotationByAxisAnimation;
 import org.gearvrf.animation.GVRRotationByAxisWithPivotAnimation;
 import org.gearvrf.scene_objects.GVRSphereSceneObject;
 
@@ -174,7 +175,7 @@ public class PlaneteriumMain extends GVRMain {
 
     void createPlanets(){
         // Earth;
-        Planet earth = new Planet("Earth", "sphere_earthmap.obj", 560f, getGVRContext(), R.drawable.earthmap1k);
+        Planet earth = new Planet("Earth", "sphere_earthmap.obj", 24.0F, getGVRContext(), R.drawable.earthmap1k);
         earth.setPosition(0, 0, -18.596F);
         earth.setSkyBoxPath("Earth");
         earth.loadSkyBoxNames(mActivity);
@@ -182,7 +183,7 @@ public class PlaneteriumMain extends GVRMain {
         startRevolution(planets.get(0),365);
 
         // Mercury;
-        Planet mercury = new Planet("Mercury", "sphere_mercury.obj", 160f, getGVRContext(), R.drawable.mercurymap);
+        Planet mercury = new Planet("Mercury", "sphere_mercury.obj", 140.3F, getGVRContext(), R.drawable.mercurymap);
         mercury.setPosition(0, 0, -7.196F);
         mercury.setSkyBoxPath("Mercury");
         mercury.loadSkyBoxNames(mActivity);
@@ -190,7 +191,7 @@ public class PlaneteriumMain extends GVRMain {
         startRevolution(planets.get(1),88);
 
         // Venus;
-        Planet venus = new Planet("Venus", "sphere_venus.obj", 260f, getGVRContext(), R.drawable.venusmap);
+        Planet venus = new Planet("Venus", "sphere_venus.obj", 280.0F, getGVRContext(), R.drawable.venusmap);
         venus.setPosition(0, 0, -13.448F);
         venus.setSkyBoxPath("Venus");
         venus.loadSkyBoxNames(mActivity);
@@ -198,14 +199,23 @@ public class PlaneteriumMain extends GVRMain {
         startRevolution(planets.get(2),225);
 
         // Mars;
-        Planet mars = new Planet("Mars", "sphere_mars.obj", 360f, getGVRContext(), R.drawable.mars_1k_color);
+        Planet mars = new Planet("Mars", "sphere_mars.obj", 24.0F, getGVRContext(), R.drawable.mars_1k_color);
         mars.setPosition(0, 0, -28.32F);
         mars.setSkyBoxPath("Mars");
         mars.loadSkyBoxNames(mActivity);
         planets.add(mars);
         startRevolution(planets.get(3),687);
 
-        //   Planet sun = new Planet("Sun", "sphere_sun.obj",1000f,getGVRContext(),R.drawable.);
+        GVRSceneObject jupiterObj;
+        GVRTexture texture;
+
+
+        /*Planet jupiter = new Planet("Jupiter", "????",720F,getGVRContext(),R.drawable);
+        jupiter.setPosition(0,0,-96.6F);
+        jupiter.setSkyBoxPath("Jupiter");
+        jupiter.loadSkyBoxNames(mActivity);
+        planets.add(jupiter);
+        startRevolution(planets.get(4),4300);*/
     }
 
     void startRevolution(Planet planet,float duration)
@@ -213,7 +223,6 @@ public class PlaneteriumMain extends GVRMain {
         GVRRotationByAxisWithPivotAnimation revolutionOject = new GVRRotationByAxisWithPivotAnimation(planet.getPlanetScene(),duration,360.0f,0.0f,1.0f,0.0f, 0.0f,0.0f, 0.0f);
         revolutionOject.setRepeatMode(GVRRepeatMode.REPEATED).setRepeatCount(-1);
         getGVRContext().getAnimationEngine().start(revolutionOject);
-        // showPlanets(mainScene);
     }
 
     void showPlanets(GVRScene mainScene){
@@ -226,7 +235,9 @@ public class PlaneteriumMain extends GVRMain {
     void startRotation(){
         for (Planet p:
                 planets) {
-            p.startRotation(getGVRContext().getAnimationEngine());
+            GVRRotationByAxisAnimation rotationObj = new GVRRotationByAxisAnimation(p.getPlanetScene(),p.getRotationSpeed(),360.0F,0.0F,1.0F,0.0F);
+            rotationObj.setRepeatMode(GVRRepeatMode.REPEATED).setRepeatCount(-1);
+            getGVRContext().getAnimationEngine().start(rotationObj);
         }
     }
 

@@ -34,7 +34,7 @@ import java.util.List;
 public class Planet {
     GVRSceneObject planetScene;
     GVRTextViewSceneObject textObject;
-    float rotationSpeed;
+    private float rotationSpeed;
     String planetName;
     String skyBoxPath;
     String[] skyboxes = null;
@@ -104,13 +104,19 @@ public class Planet {
     }
 
     public void startRotation(GVRAnimationEngine animationEngine){
-        GVRAnimation animation = new GVRRotationByAxisAnimation( //
+        GVRRotationByAxisAnimation animation = new GVRRotationByAxisAnimation( //
                                 planetScene, rotationSpeed, -30.0f, //
                                 0.0f, 1.0f, 0.0f);
 
         animation.setRepeatMode(GVRRepeatMode.REPEATED).setRepeatCount(-1);
         animation.start(animationEngine);
     }
+
+    public float getRotationSpeed()
+    {
+        return this.rotationSpeed;
+    }
+
 
     public void setPosition(float x, float y, float z){
         planetScene.getTransform().setPosition(x, y, z);

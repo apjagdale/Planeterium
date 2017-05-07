@@ -2,5 +2,9 @@
     {
         "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi/headtrackingpointer.png",
         "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/headtrackingpointer.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi/gvrf_space.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/gvrf_space.png"
     }
 ]

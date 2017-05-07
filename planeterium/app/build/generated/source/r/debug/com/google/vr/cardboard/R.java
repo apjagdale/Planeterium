@@ -17,10 +17,10 @@ public final class R {
 		public static final int transition_bottom_bar_height = 0x7f060001;
 	}
 	public static final class drawable {
-		public static final int quantum_ic_close_white_24 = 0x7f020007;
-		public static final int quantum_ic_settings_white_24 = 0x7f020008;
-		public static final int rippleable = 0x7f020009;
-		public static final int transition = 0x7f02000a;
+		public static final int quantum_ic_close_white_24 = 0x7f020009;
+		public static final int quantum_ic_settings_white_24 = 0x7f02000a;
+		public static final int rippleable = 0x7f02000b;
+		public static final int transition = 0x7f02000d;
 	}
 	public static final class id {
 		public static final int back_button = 0x7f0a0001;

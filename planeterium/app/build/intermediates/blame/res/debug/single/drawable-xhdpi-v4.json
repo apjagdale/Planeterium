@@ -28,8 +28,16 @@
         "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/gearvr_logo.jpg"
     },
     {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/jupiter.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/jupiter.jpg"
+    },
+    {
         "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/__default_splash_screen__.png",
         "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res/drawable-xhdpi-v4/__default_splash_screen__.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/saturn_text.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/saturn_text.jpg"
     },
     {
         "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/venusmap.jpg",
