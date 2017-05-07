@@ -6,6 +6,7 @@ import org.gearvrf.GVRActivity;
 import org.gearvrf.GVRAndroidResource;
 import org.gearvrf.GVRContext;
 import org.gearvrf.GVRMain;
+import org.gearvrf.GVRMesh;
 import org.gearvrf.GVRPicker;
 import org.gearvrf.GVRScene;
 import org.gearvrf.GVRSceneObject;
@@ -107,16 +108,15 @@ public class PlaneteriumMain extends GVRMain {
     }
 
     void addSpace(){
-        GVRSphereSceneObject sphereObject = null;
-        // load texture
-        Future<GVRTexture> texture = null;
-        try {
-            texture = getGVRContext().loadFutureTexture(new GVRAndroidResource(getGVRContext(), "gvrf_space.png"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        sphereObject = new GVRSphereSceneObject(getGVRContext(), false, texture);
-        sphereObject.getTransform().setScale(150, 150, 150);
+        GVRSceneObject sphereObject;
+        GVRMesh spaceMesh = getGVRContext().loadMesh(new GVRAndroidResource(
+                getGVRContext(), R.raw.gvrf_space_mesh));
+
+        GVRTexture spaceTexture = getGVRContext().getAssetLoader()
+                .loadTexture(new GVRAndroidResource(getGVRContext(),
+                        R.drawable.gvrf_space));
+        sphereObject = new GVRSceneObject(getGVRContext(), spaceMesh,
+                spaceTexture);
         mainScene.addSceneObject(sphereObject);
     }
     void handleTapActivity(){
