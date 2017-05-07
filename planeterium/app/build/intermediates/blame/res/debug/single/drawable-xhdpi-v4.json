@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/quantum_ic_settings_white_24.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/drawable-xhdpi-v4/quantum_ic_settings_white_24.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/white_texture.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res/drawable-xhdpi-v4/white_texture.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mars_1k_color.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/mars_1k_color.jpg"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mercurymap.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/mercurymap.jpg"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/quantum_ic_close_white_24.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/drawable-xhdpi-v4/quantum_ic_close_white_24.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/gearvr_logo.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/gearvr_logo.jpg"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/__default_splash_screen__.png",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res/drawable-xhdpi-v4/__default_splash_screen__.png"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/venusmap.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/venusmap.jpg"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/earthmap1k.jpg",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/src/main/res/drawable-xhdpi/earthmap1k.jpg"
+    }
+]

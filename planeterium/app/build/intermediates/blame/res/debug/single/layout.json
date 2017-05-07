@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/transition_view.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout/transition_view.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/back_button.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout/back_button.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/ui_layer.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout/ui_layer.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/ui_layer_with_portrait_support.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout/ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout/settings_button.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout/settings_button.xml"
+    }
+]

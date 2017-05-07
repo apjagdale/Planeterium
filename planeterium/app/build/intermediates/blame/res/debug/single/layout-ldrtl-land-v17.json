@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout-ldrtl-land-v17/settings_button.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout-ldrtl-land-v17/settings_button.xml"
+    },
+    {
+        "merged": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/res/merged/debug/layout-ldrtl-land-v17/back_button.xml",
+        "source": "/Users/Seney/Documents/CS476/GearVRf-Demos/Planeterium/planeterium/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.30.0/res/layout-ldrtl-land-v17/back_button.xml"
+    }
+]

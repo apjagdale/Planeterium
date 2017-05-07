@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="framework-3.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/jars/libs/jnlua-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/jars/libs/jline-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/jars/libs/js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.gearvrf/framework/3.1.2-SNAPSHOT/jars/libs/jsr223.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gearvrf/framework/3.1.2-SNAPSHOT/db35bd73539f3f3136fa00dab6d9cec23eae5064/framework-3.1.2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
