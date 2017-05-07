@@ -99,16 +99,31 @@ public class PlaneteriumMain extends GVRMain {
         mainScene.getEventReceiver().addListener(mPickHandler);
         mPicker = new GVRPicker(gvrContext, mainScene);
 
+        addSpace();
         addHeadTracker(mainScene);
         createPlanets();
         startRotation();
         showPlanets(mainScene);
     }
 
+    void addSpace(){
+        GVRSphereSceneObject sphereObject = null;
+        // load texture
+        Future<GVRTexture> texture = null;
+        try {
+            texture = getGVRContext().loadFutureTexture(new GVRAndroidResource(getGVRContext(), "gvrf_space.png"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        sphereObject = new GVRSphereSceneObject(getGVRContext(), false, texture);
+        sphereObject.getTransform().setScale(150, 150, 150);
+        mainScene.addSceneObject(sphereObject);
+    }
     void handleTapActivity(){
         if(skyBoxDisplayed){
             mainScene.removeAllSceneObjects();
             currentPlanet = null;
+            addSpace();
             addHeadTracker(mainScene);
             showPlanets(mainScene);
             skyBoxDisplayed = false;
